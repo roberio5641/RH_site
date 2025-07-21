@@ -1,0 +1,120 @@
+/* PersonalInfoForm.css */
+
+.form-section {
+  background-color: white;
+  align-items: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.formsection h2 {
+  color: #063181;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="tel"],
+.input-group input[type="date"],
+.input-group select,
+.input-group textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.input-group select {
+  appearance: none;
+  background-color: #fff;
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  padding-right: 35px;
+}
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.radio-group input[type="radio"] {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.radio-group label {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  font-weight: bold;
+}
+
+.formsection button {
+  background-color: #bb9b4c;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+.formsection button:hover {
+  background-color: #a5863c;
+}
+
+@media screen and (max-width: 768px) {
+  .formsection {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .formsection h2 {
+    font-size: 20px;
+  }
+
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group input[type="tel"],
+  .input-group input[type="date"],
+  .input-group select,
+  .input-group textarea {
+    padding: 10px;
+  }
+  
+  .input-group select {
+    width: 100%;
+    padding: 12px;
+  }
+}

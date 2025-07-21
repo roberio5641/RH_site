@@ -1,0 +1,52 @@
+/* App.css */
+
+header {
+  background-color: #063181; /* Azul da Avanço */
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 15px 0;
+  }
+  
+  header img {
+    width: 120px;
+  }
+  
+  header h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header img {
+    width: 100px;
+  }
+  
+  header h2 {
+    font-size: 16px;
+  }
+}
